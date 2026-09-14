@@ -11,14 +11,19 @@
 <!-- Автор страницы:Kalibay Nurseit-->
 
     <header>
-        <h1>Dodo Pizza</h1>
+        <h1>Dodo Pizza Menu</h1>
     </header>
 
     <nav>
         <ul>
             <li><a href="index.html">Главная</a></li>
-            <li><a href="menu.html">Меню</a></li>
-            <li><a href="colophon.html">О сайте</a></li>
+                <li><a href="colophon.html">О сайте</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="interior.html">Интерьер</a></li>
+                <li><a href="service.html">Обслуживание</a></li>
+                <li><a href="offers.html">Акции</a></li>
+                <li><a href="payment.html">Оплата</a></li>
         </ul>
     </nav>
 
@@ -222,6 +227,17 @@
                             <label for="comment">Комментарий к заказу:</label><br>
                             <textarea id="comment" name="comment" rows="4" cols="40" placeholder="Например: без лука, звонить перед доставкой"></textarea>
                         </p>
+
+                        <p>
+                <label for="payment">Способ оплаты</label><br>
+                <select id="payment" name="payment" required>
+                    <option value="">Выберите способ</option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="dodocoins">Додокоины</option>
+                    <option value="cash">Наличные</option>
+                </select>
+            </p>
 
                     </fieldset>
 
