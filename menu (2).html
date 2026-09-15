@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dodo Pizza menu and prices — web technology project page">
+    <meta name="author" content="Kalibay Nurseit">
+    <title>Menu — Dodo Pizza</title>
+</head>
+<body>
+<!-- Page author: Kalibay Nurseit -->
+
+    <header>
+        <h1>Dodo Pizza Menu</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="colophon.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="interior.html">Interior</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="payment.html">Payment</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="wrapper">
+
+            <section id="about">
+                <h2>About the Location</h2>
+                <p>
+                    The location is situated at 47 Mangilik El Avenue
+                    and is open daily from 09:00 to 24:00.
+                </p>
+
+                <figure>
+                    <img src="images/main.jpg"
+                         alt="Dodo Pizza sign and entrance"
+                         width="400" height="300">
+                </figure>
+            </section>
+
+            <section id="menu">
+                <h2>Menu and Prices</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">25 cm, ₸</th>
+                            <th scope="col">30 cm, ₸</th>
+                            <th scope="col">35 cm, ₸</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Cheesy</th>
+                            <td>1,590</td>
+                            <td>2,690</td>
+                            <td>3,390</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pepperoni Fresh</th>
+                            <td>1,850</td>
+                            <td>2,950</td>
+                            <td>3,650</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ham and Cheese</th>
+                            <td>1,850</td>
+                            <td>2,950</td>
+                            <td>3,650</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pepperoni</th>
+                            <td>2,250</td>
+                            <td>3,350</td>
+                            <td>4,050</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Meaty</th>
+                            <td>2,450</td>
+                            <td>3,550</td>
+                            <td>4,250</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Pizza Types</h3>
+                <ul>
+                    <li>Meat Pizzas
+                        <ul>
+                            <li>Pepperoni</li>
+                            <li>Meaty</li>
+                            <li>Ham and Cheese</li>
+                            <li>Pepperoni Fresh</li>
+                        </ul>
+                    </li>
+                    <li>Vegetarian Pizzas
+                        <ul>
+                            <li>Cheesy</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>Ordering Process</h3>
+                <ol>
+                    <li>Choose a pizza</li>
+                    <li>Enter your address</li>
+                    <li>Pay for the order</li>
+                </ol>
+
+                <dl>
+                    <dt>Delivery</dt>
+                    <dd>Delivery is completed within 30 minutes.</dd>
+
+                    <dt>Pickup</dt>
+                    <dd>The order can be collected within 15 minutes.</dd>
+
+                    <dt>Payment</dt>
+                    <dd>Payment is accepted in cash and by bank card.</dd>
+                </dl>
+            </section>
+
+            <section id="contacts-info">
+                <h2>Contacts and Feedback</h2>
+
+                <p>
+                    Official website:
+                    <a href="https://dodopizza.kz" target="_blank" rel="noopener noreferrer">dodopizza.kz</a>
+                </p>
+                <p>Email us: <a href="mailto:feedback@dodopizza.kz">feedback@dodopizza.kz</a></p>
+                <p>Call us: <a href="tel:+77719444004">+7 771 944 40 04</a></p>
+
+                <p>Go to the <a href="#menu">menu</a> or <a href="#about">location description</a>.</p>
+
+                <blockquote>
+                    <p>Our pizza is prepared in 10 minutes.</p>
+                </blockquote>
+
+                <p>
+                    <abbr title="Limited Liability Company">LLC DODO PIZZA</abbr>
+                    operates according to <abbr title="Hazard Analysis and Critical Control Points">HACCP</abbr> standards.
+                </p>
+
+                <p>Symbols used: &copy; &mdash; &laquo; &raquo;</p>
+
+                <p>
+                    <strong>Important:</strong> delivery is free for orders over
+                    <em>5,000 ₸</em>. Check the <mark>monthly offers</mark> in the app.
+                    The dining area is 45 m<sup>2</sup> and can accommodate up to 30 people.
+                </p>
+
+                <p>
+                    The order number is displayed on the screen:
+                    <code>ORDER_NUMBER</code> — for example,
+                    the cashier's screen may show
+                    <samp>Order No. 1032 is ready</samp>.
+                    To confirm receipt, press <kbd>OK</kbd> on the pickup terminal.
+                </p>
+
+                <pre>
+Order receipt:
+1x Pepperoni 30 cm
+1x Cola 0.5 L
+Total: 3,200 ₸
+                </pre>
+
+                <hr>
+
+                <p>
+                    We are open daily from 09:00 to 24:00.<br>
+                    The last order is accepted 30 minutes before closing.
+                </p>
+            </section>
+
+            <section id="order-form">
+                <h2>Place an Order Request</h2>
+
+                <form method="post" action="#">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+
+                        <p>
+                            <label for="name">Your name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </p>
+
+                        <p>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email"
+                                   placeholder="example@mail.com" required>
+                        </p>
+
+                        <p>
+                            <label for="phone">Phone:</label><br>
+                            <input type="tel" id="phone" name="phone"
+                                   placeholder="+7 (___) ___-__-__">
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Order Details</legend>
+
+                        <p>
+                            <label for="pizza-count">Number of pizzas:</label><br>
+                            <input type="number" id="pizza-count" name="pizza-count"
+                                   min="1" max="20" value="1">
+                        </p>
+
+                        <p>Order type:</p>
+                        <p>
+                            <input type="radio" id="delivery" name="order-type"
+                                   value="delivery" checked>
+                            <label for="delivery">Delivery</label><br>
+
+                            <input type="radio" id="pickup" name="order-type" value="pickup">
+                            <label for="pickup">Pickup</label><br>
+
+                            <input type="radio" id="dine-in" name="order-type" value="dine-in">
+                            <label for="dine-in">Bring to the table</label>
+                        </p>
+
+                        <p>
+                            <label for="pizza-type">Choose a pizza:</label><br>
+                            <select id="pizza-type" name="pizza-type">
+                                <option value="pepperoni">Pepperoni</option>
+                                <option value="pepperoni-fresh">Pepperoni Fresh</option>
+                                <option value="ham-and-cheese">Ham and Cheese</option>
+                                <option value="cheesy">Cheesy</option>
+                                <option value="meaty">Meaty</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <input type="checkbox" id="extra-cheese"
+                                   name="extra-cheese" value="yes">
+                            <label for="extra-cheese">Extra cheese</label>
+                        </p>
+
+                        <p>
+                            <label for="comment">Order comment:</label><br>
+                            <textarea id="comment" name="comment" rows="4" cols="40"
+                                      placeholder="For example: no onions, call before delivery"></textarea>
+                        </p>
+
+                        <p>
+                            <label for="payment">Payment method:</label><br>
+                            <select id="payment" name="payment" required>
+                                <option value="">Choose a payment method</option>
+                                <option value="visa">Visa</option>
+                                <option value="mastercard">Mastercard</option>
+                                <option value="dodocoins">Dodo Coins</option>
+                                <option value="cash">Cash</option>
+                            </select>
+                        </p>
+                    </fieldset>
+
+                    <p>
+                        <button type="submit">Submit Request</button>
+                        <button type="reset">Clear Form</button>
+                    </p>
+                </form>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <small>Dodo Pizza, 47 Mangilik El Avenue, Astana
+            &nbsp;|&nbsp; Daily 09:00&ndash;24:00</small>
+        </p>
+        <p>
+            <small>&copy; 2026 Dodo Pizza - educational project.
+            Learn more about how the website was created on the
+            <a href="colophon.html">colophon</a> page.</small>
+        </p>
+        <p>
+            <small>Phone:
+            <a href="tel:+7-7719444004">+7-7719444004</a></small>
+        </p>
+    </footer>
+
+</body>
+</html>
